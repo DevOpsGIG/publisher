@@ -25,7 +25,7 @@ type Task interface {
 	GetTaskType() string
 }
 
-const addr = "http://127.0.0.1"
+const addr = "http://192.168.50.3"
 const port = "8080"
 
 // Send function receives tasks of type publisher.Task,
